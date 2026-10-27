@@ -1,0 +1,17 @@
+
+graph TB
+    subgraph A[Building A - head office and IT]
+        CCA[CC-A]
+        FWA[FW-A]
+        ACCA[ACC-A-01..06]
+    end
+    subgraph B[Building B - production]
+        CCB[CC-B]
+        FWB[FW-B]
+        ACCB[ACC-B-01..04]
+    end
+    CCA <==>|2 fibres, distinct routes| CCB
+    CCA --- FWA
+    CCB --- FWB
+    ACCA --- CCA
+    ACCB --- CCB

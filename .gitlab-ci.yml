@@ -1,0 +1,5 @@
+controle-plan-ip:
+  image: python:3.12
+  script:
+    - pip install pyyaml
+    - python scripts/check_vlans.py
