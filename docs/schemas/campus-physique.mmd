@@ -1,0 +1,16 @@
+graph LR
+    subgraph LOCA [Technical room A, building A]
+        CCA[CC-A]
+        UPSA[UPS A]
+    end
+    subgraph LOCB [Technical room B, building B]
+        CCB[CC-B]
+        UPSB[UPS B]
+    end
+
+    UPSA --- CCA
+    UPSB --- CCB
+
+    CCA -- "north technical gallery" --> J{{Cable chamber under courtyard}}
+    J   -- "north technical gallery" --> CCB
+    CCA -- "south outer facade"     --> CCB
