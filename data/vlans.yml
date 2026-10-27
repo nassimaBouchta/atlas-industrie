@@ -6,8 +6,7 @@ vlans:
   - {id: 10, name: gestion,        zone: infrastructure, ipv4: 10.42.0.0/24,  ipv6: 'fd43:5ad7:b34e:10::/64'}
   - {id: 20, name: bureautique-a,  zone: it,             ipv4: 10.42.16.0/24, ipv6: 'fd43:5ad7:b34e:20::/64'}
   - {id: 21, name: bureautique-b,  zone: it,             ipv4: 10.42.17.0/24, ipv6: 'fd43:5ad7:b34e:21::/64'}
-  - {id: 25, name: serveurs-it,    zone: it,             ipv4: 10.42.18.0/24, ipv6: 'fd43:5ad7:b34e:25::/64'}
-  - {id: 30, name: voix-a,         zone: voix,           ipv4: 10.42.32.0/24, ipv6: 'fd43:5ad7:b34e:30::/64'}
+  - {id: 25, name: serveurs-it,    zone: it,             ipv4: 10.42.16.0/23, ipv6: 'fd43:5ad7:b34e:25::/64'}  - {id: 30, name: voix-a,         zone: voix,           ipv4: 10.42.32.0/24, ipv6: 'fd43:5ad7:b34e:30::/64'}
   - {id: 31, name: voix-b,         zone: voix,           ipv4: 10.42.33.0/24, ipv6: 'fd43:5ad7:b34e:31::/64'}
   - {id: 40, name: invites,        zone: invites,        ipv4: 10.42.48.0/23, ipv6: 'fd43:5ad7:b34e:40::/64'}
   - {id: 50, name: ot-automates,   zone: ot,             ipv4: 10.42.64.0/24, ipv6: 'fd43:5ad7:b34e:50::/64'}
